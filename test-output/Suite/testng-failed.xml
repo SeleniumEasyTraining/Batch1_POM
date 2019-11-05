@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="baseURL" value="http://automationpractice.com/index.php"/>
+  <parameter name="browserName" value="chrome"/>
+  <test name="Test(failed)">
+    <parameter name="baseURL" value="http://automationpractice.com/index.php"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.selenium.tests.LoginTest">
+        <methods>
+          <include name="doBefore"/>
+          <include name="verifyLogo"/>
+          <include name="doAfter"/>
+        </methods>
+      </class> <!-- com.selenium.tests.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

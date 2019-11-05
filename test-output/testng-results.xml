@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="24774" started-at="2019-11-04T02:09:16Z" finished-at="2019-11-04T02:09:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="24774" started-at="2019-11-04T02:09:16Z" finished-at="2019-11-04T02:09:41Z">
+      <class name="com.selenium.tests.LoginTest">
+        <test-method status="PASS" signature="doBefore(java.lang.String, java.lang.String)[pri:0, instance:com.selenium.tests.LoginTest@18be83e4]" name="doBefore" is-config="true" duration-ms="19222" started-at="2019-11-04T07:39:16Z" finished-at="2019-11-04T07:39:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://automationpractice.com/index.php]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doBefore -->
+        <test-method status="PASS" signature="verifyLogo()[pri:0, instance:com.selenium.tests.LoginTest@18be83e4]" name="verifyLogo" duration-ms="4596" started-at="2019-11-04T07:39:35Z" description="I am going to verify the logo present in login page" finished-at="2019-11-04T07:39:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method status="PASS" signature="doAfter()[pri:0, instance:com.selenium.tests.LoginTest@18be83e4]" name="doAfter" is-config="true" duration-ms="918" started-at="2019-11-04T07:39:40Z" finished-at="2019-11-04T07:39:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doAfter -->
+      </class> <!-- com.selenium.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
